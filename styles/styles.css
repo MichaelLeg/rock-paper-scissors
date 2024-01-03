@@ -37,3 +37,22 @@ header p {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+.weapons__images {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+
+.weapons__img {
+  width: 12rem;
+  border-radius: 50%;
+  box-shadow: -0.3em 0.3em 0.2em #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.weapons__img:hover {
+  transform: scale(1.05);
+}
