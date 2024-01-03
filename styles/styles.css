@@ -56,3 +56,24 @@ header p {
 .weapons__img:hover {
   transform: scale(1.05);
 }
+
+.score__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.score__numbers {
+  font-size: 1.5rem;
+  text-align: center;
+  word-spacing: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.score__weapons p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
+}
